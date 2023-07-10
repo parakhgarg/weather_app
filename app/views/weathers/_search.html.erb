@@ -1,0 +1,7 @@
+<%= form_with(url: weathers_path, method: 'get') do |form| %>
+  <div class="field">
+    <%= form.label :city %>
+    <%= form.text_field :city, value: @search %>
+  </div>
+  <%= form.submit "Submit" %>
+<% end %>
