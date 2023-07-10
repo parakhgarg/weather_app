@@ -1,3 +1,4 @@
 class ApplicationController < ActionController::Base
-  #new_conflict changes
+  #new_conflict
+  #Application
 end
